@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing:content-box;
+}
+body{
+    background-color: black;
+}
+
+.box{
+    width:80%;
+    max-width: 470px;
+    background-color: aqua;
+    border-radius: 20px;;
+    margin: 20px auto 0px;
+    padding: 40px 35px;
+    text-align:center;    
+}
+.search{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.search input{
+    border:0;
+    outline:0;
+    background-color:blanchedalmond;
+    color:black;
+    padding: 10px 20px;
+    height: 50px;
+    border-radius: 30px;
+    flex:1;
+    margin-right:10px;
+    font-size: 18px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: bisque;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 25px;
+}
+
+.weather img{
+    margin-top:20px;
+    padding: 0px;
+    width:50%;
+    
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:5px;
+    margin-top:30px;
+}
+.col{
+    margin-top:20px;
+    display:flex;
+    align-items: center;
+    text-align: center;
+
+}
+.col img{
+    width:50%;
+    margin-right: 10px;
+}
+.humidity,.wind{
+    font-size: 28px;
+    
+}
+table,tr,td,th,caption{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    width: 280px;
+    height: 50px;
+}
+
+       
+       
+
+       
+
+
+      
